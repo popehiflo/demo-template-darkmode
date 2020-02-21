@@ -19,12 +19,17 @@ const App = () => (
 
   <div className="ed-grid m-grid-3">
     <Curso 
-      title="ReacrJS desde cero" 
+      title="ReactJS Desde Cero" 
       image="https://www.nauzethdez.com/content/images/size/w2000/2016/06/react-logo.png" 
-      price="20 USD" 
+      price="20 USD"
+      profesor="Petter" 
     />
-    <Curso />
-    <Curso />
+    <Curso 
+      title="Flutter Desde Cero" 
+      image="https://cdn.neow.in/news/images/uploaded/2019/07/1562839325_product_28668_product_shots1_story.jpg" 
+      price="40 USD"
+      profesor="Pool"
+    />
     <Curso />
     <Curso />
     <Curso />
