@@ -3,6 +3,7 @@ import React from 'react';
 //props es el objeto donde se almacenan las propiedades que yo puse en App.js
 //Para no recibir todo el objeto props, puedo solo recibir las llaves que necesito
 //Cambio props por ({title, image, price})
+//Este es un Functional Component, es basicamente un arrow function
 const Curso = ({title, image, price, profesor}) => (
     <article className="card">
       <div className="img-container s-ratio-16-9 s-radius-tr s-radius-tl">
