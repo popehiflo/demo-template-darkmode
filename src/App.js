@@ -18,7 +18,11 @@ const App = () => (
   </div>
 
   <div className="ed-grid m-grid-3">
-    <Curso />
+    <Curso 
+      title="ReacrJS desde cero" 
+      image="https://www.nauzethdez.com/content/images/size/w2000/2016/06/react-logo.png" 
+      price="20 USD" 
+    />
     <Curso />
     <Curso />
     <Curso />
