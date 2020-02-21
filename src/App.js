@@ -10,8 +10,8 @@ const App = () => (
         <img className="main-banner__img" alt="banner" src="https://eloutput.com/app/uploads-eloutput.com/2019/03/sonic-real-imagen-pelicula.jpg"/>
         <div className="main-banner__data s-center">
           <p className="t2 s-mb-0">Catalogo de Cursos</p>
-          <p> Ingresa gratis a todos los cursos</p>
-          <a href="https://google.com.pe" className="button">Registrate</a>
+          <p> Ingresa a todos los cursos, tu futuro te esta esperando</p>
+          <a href="https://google.com.pe" className="button">Suscribirse</a>
         </div>
       </div>
     </div>
