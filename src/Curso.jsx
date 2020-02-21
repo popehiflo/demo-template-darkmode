@@ -7,8 +7,7 @@ import React from 'react';
 const Curso = ({title, image, price, profesor}) => (
     <article className="card">
       <div className="img-container s-ratio-16-9 s-radius-tr s-radius-tl">
-        {/*img necesita dos propiedades para ser renderizada src y alt */}
-        <img src={image} alt={title} />
+        <img src={image ? image : "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPxvoy0hvOiEurmgGwx6VExV1MDqDJPDwJZS_AlRtm5IqLxBew"} alt={title} />
       </div>
       <div className="card__data s-border s-radius-br s-radius-bl s-pxy-2">
         <h3 className="center">
