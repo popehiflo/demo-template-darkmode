@@ -2,6 +2,34 @@ import React from 'react';
 import "./styles/styles.scss";
 import Curso from "./Curso";
 
+/* Array de cursos (objetos), lo recorrere para renderizar n veces el componente curso */
+const cursos = [
+  {
+    "titulo": "React Desde Cero",
+    "image": "https://www.nauzethdez.com/content/images/size/w2000/2016/06/react-logo.png",
+    "price": 30,
+    "profesor":"Alexys"
+  },
+  {
+    "titulo":"Flutter Desde Cero",
+    "image": "https://cdn.neow.in/news/images/uploaded/2019/07/1562839325_product_28668_product_shots1_story.jpg",
+    "price": 40,
+    "profesor":"Petter"
+  },
+  {
+    "titulo":"Java Desde Cero",
+    
+    "price": 50,
+    "profesor":"Pool"
+  },
+  {
+    "titulo":"HTML Desde Cero",
+    
+    "price": 20,
+    "profesor":"Dennis"
+  }
+]
+
 const App = () => (
 <>
   <div className="main-banner img-container l-section" id="main-banner">
@@ -18,22 +46,10 @@ const App = () => (
   </div>
 
   <div className="ed-grid m-grid-3">
-    <Curso 
-      title="ReactJS Desde Cero" 
-      image="https://www.nauzethdez.com/content/images/size/w2000/2016/06/react-logo.png" 
-      price="20 USD"
-      profesor="Petter" 
-    />
-    <Curso 
-      title="Flutter Desde Cero" 
-      image="https://cdn.neow.in/news/images/uploaded/2019/07/1562839325_product_28668_product_shots1_story.jpg" 
-      price="40 USD"
-      profesor="Pool"
-    />
-    <Curso />
-    <Curso />
-    <Curso />
-    
+    {
+      /*Podria usar foreach para recorrer el arreglo, pero en JSX necesito que me devuelva otro arreglo*/
+      cursos.map( c => <Curso title={c.titulo} image={c.image} price={c.price} profesor={c.profesor} />)
+    }
   </div>
 </>
 )

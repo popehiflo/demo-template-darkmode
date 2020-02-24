@@ -23,7 +23,7 @@ const Curso = ({title, image, price, profesor}) => (
           </div>
         </div>
         <div className="s-main-center">
-          <a className="button--ghost-alert button--tiny" href="https://github.com/popehiflo">{`$ ${price}`}</a>
+          <a className="button--ghost-alert button--tiny" href="https://github.com/popehiflo">{`$ ${price} USD`}</a>
         </div>
       </div>
     </article>
@@ -32,14 +32,14 @@ const Curso = ({title, image, price, profesor}) => (
 Curso.propTypes = {
   title: PropTypes.string,
   image: PropTypes.string,
-  price: PropTypes.string,
+  price: PropTypes.number,
   profesor: PropTypes.string
 }
 /*Definiendo que valor por defecto debe tener en cada propiedad*/
 Curso.defaultProps = {
   title: "No se encontro Titulo!",
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPxvoy0hvOiEurmgGwx6VExV1MDqDJPDwJZS_AlRtm5IqLxBew",
-  price: "--",
+  price: 0,
   profesor: ""
 }
 
