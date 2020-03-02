@@ -37,9 +37,9 @@ const App = () => (
       <div className="lg-cols-4 lg-x-2">
         <img className="main-banner__img" alt="banner" src="https://eloutput.com/app/uploads-eloutput.com/2019/03/sonic-real-imagen-pelicula.jpg"/>
         <div className="main-banner__data s-center">
-          <p className="t2 s-mb-0">Catalogo de Cursos</p>
-          <p> Ingresa a todos los cursos, tu futuro te esta esperando</p>
-          <a href="https://google.com.pe" className="button">Suscribirse</a>
+          <p className="t2 s-mb-0">Santa Rosa</p>
+          <p> Instituto de Educacion Superior Pedagogico</p>
+          <a href="https://google.com.pe" className="button">Admision</a>
         </div>
       </div>
     </div>

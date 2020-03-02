@@ -1,3 +1,11 @@
+## DEMO
+#### Frontend
+#### Backend
+### Features
+## Frontend Setup
+1. Navigate the current working directory
+2. Install the all frontend dependencies using npm or yarn: `npm install` or `yarn`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
