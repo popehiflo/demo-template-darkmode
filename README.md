@@ -5,6 +5,7 @@
 ## Frontend Setup
 1. Navigate the current working directory
 2. Install the all frontend dependencies using npm or yarn: `npm install` or `yarn`
+3. Run the server: `npm start` or `yarn start`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
