@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+:root {
+  --color-primary: #4e73df;
+  --color-background-light: #fafbfa;
+  --color-background-dark: #10172a;
+}
+
+* {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+}
+
+body {
+  background-color: var(--color-background-light);
+}
+
+body.active-dark {
+  --color-background-light: #10172a;
+  --color-background-dark: #fff; 
+}
+
+#btn-theme-toggle {
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  background-color: var(--color-background-dark);
+  color: var(--color-primary);
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#btn-theme-toggle i.fa-moon {
+  transform: rotate(360deg);
+}
+
+.content {
+  height: 100vh;
+  width: 100%;
+  /* padding-bottom: 4rem; */
+  display: grid;
+  place-content: center;
+}
+
+.content h1 {
+  font-size: 7vw;
+  color: var(--color-primary);
+}
+
